@@ -1,0 +1,79 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - AWSCore (2.4.11)
+  - AWSMobileAnalytics (2.4.11):
+    - AWSCore (= 2.4.11)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - CryptoSwift (0.6.6)
+  - DrawerController (3.0.0):
+    - DrawerController/Core (= 3.0.0)
+    - DrawerController/DrawerVisualStates (= 3.0.0)
+  - DrawerController/Core (3.0.0)
+  - DrawerController/DrawerVisualStates (3.0.0):
+    - DrawerController/Core
+  - DZNEmptyDataSet (1.8.1)
+  - Eureka (2.0.0-beta.1)
+  - JASON (3.0)
+  - SnapKit (3.0.2)
+  - STPopup (1.8.1)
+  - SVProgressHUD (2.0.3)
+  - SwiftyJSON (3.1.1)
+  - Whisper (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.0)
+  - AWSCore
+  - AWSMobileAnalytics
+  - ChameleonFramework
+  - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, branch `master`)
+  - DrawerController
+  - DZNEmptyDataSet
+  - Eureka (from `https://github.com/xmartlabs/Eureka`, branch `master`)
+  - JASON (~> 3.0)
+  - SnapKit (~> 3.0.0)
+  - STPopup
+  - SVProgressHUD
+  - SwiftyJSON
+  - Whisper
+
+EXTERNAL SOURCES:
+  CryptoSwift:
+    :branch: master
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+  Eureka:
+    :branch: master
+    :git: https://github.com/xmartlabs/Eureka
+
+CHECKOUT OPTIONS:
+  CryptoSwift:
+    :commit: 8007a4fb4d8988bdb8839480ddc7801a089f4b72
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+  Eureka:
+    :commit: 37ca0e09e91c09942005266a60d9fe3397e2a3a9
+    :git: https://github.com/xmartlabs/Eureka
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  AWSCore: e66b0f50d68f9897cc9e68471062f0cb5379eec5
+  AWSMobileAnalytics: b57240111c0c93b2172bd61db20842755a6b1c7e
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CryptoSwift: 5e857f6d8a91c41c92c7c6a6950a52434d8d35c2
+  DrawerController: 5e859c5dbeae3cea20981eb5ff2aa16eb946dff9
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  JASON: cf4d762e61428a20db8eaef2acb6a569a10c1801
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  STPopup: 47e8ae53d348fa5f9be2d08d5c513ebe12ca758d
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  Whisper: 08be92623311f8e53201e62e17f6d7b9599a4714
+
+PODFILE CHECKSUM: 512fde8baaf8da8c32ebfd5328266e7e2d5c7296
+
+COCOAPODS: 1.1.1

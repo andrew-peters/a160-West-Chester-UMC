@@ -1,0 +1,6 @@
+framework module Pods_a160_West_Chester_UMC {
+  umbrella header "Pods-a160 West Chester UMC-umbrella.h"
+
+  export *
+  module * { export * }
+}

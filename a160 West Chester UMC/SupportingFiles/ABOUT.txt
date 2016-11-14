@@ -1,0 +1,7 @@
+ADD APP DESCRIPTION HERE. Paragraphs need to all by typed on the same line.
+
+Change Log:
+- 1.0.0 (DATE_HERE):
+
+Developed by OCV, LLC in Auburn, AL
+Visit us online at http://www.myocv.com

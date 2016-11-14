@@ -7,21 +7,271 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74BC304E1DD12CE400EEF283 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC304D1DD12CE400EEF283 /* AppDelegate.swift */; };
-		74BC30501DD12CE400EEF283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC304F1DD12CE400EEF283 /* ViewController.swift */; };
+		573B97D9D2391655C27C60E1 /* Pods_a160_West_Chester_UMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9949E5969A868B24E262A7E /* Pods_a160_West_Chester_UMC.framework */; };
 		74BC30531DD12CE400EEF283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BC30511DD12CE400EEF283 /* Main.storyboard */; };
 		74BC30551DD12CE400EEF283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BC30541DD12CE400EEF283 /* Assets.xcassets */; };
 		74BC30581DD12CE400EEF283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BC30561DD12CE400EEF283 /* LaunchScreen.storyboard */; };
+		74C5F8FD1DD54CAB009A1E10 /* dependency_images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F87D1DD54CAB009A1E10 /* dependency_images.xcassets */; };
+		74C5F8FE1DD54CAB009A1E10 /* socialMediaGraphics.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F87E1DD54CAB009A1E10 /* socialMediaGraphics.xcassets */; };
+		74C5F8FF1DD54CAB009A1E10 /* standardMenuIconSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F87F1DD54CAB009A1E10 /* standardMenuIconSet.xcassets */; };
+		74C5F9001DD54CAB009A1E10 /* standardTableIconSet.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F8801DD54CAB009A1E10 /* standardTableIconSet.xcassets */; };
+		74C5F9011DD54CAB009A1E10 /* OCVCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8831DD54CAB009A1E10 /* OCVCalendarCell.swift */; };
+		74C5F9021DD54CAB009A1E10 /* OCVCalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8841DD54CAB009A1E10 /* OCVCalendarEvent.swift */; };
+		74C5F9031DD54CAB009A1E10 /* OCVCalendarTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8851DD54CAB009A1E10 /* OCVCalendarTable.swift */; };
+		74C5F9041DD54CAB009A1E10 /* OCVCalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8861DD54CAB009A1E10 /* OCVCalendarViewModel.swift */; };
+		74C5F9051DD54CAB009A1E10 /* OCVDigestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8881DD54CAB009A1E10 /* OCVDigestCell.swift */; };
+		74C5F9061DD54CAB009A1E10 /* OCVDigestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8891DD54CAB009A1E10 /* OCVDigestController.swift */; };
+		74C5F9071DD54CAB009A1E10 /* OCVDigestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F88A1DD54CAB009A1E10 /* OCVDigestObject.swift */; };
+		74C5F9081DD54CAB009A1E10 /* OCVDigestTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F88B1DD54CAB009A1E10 /* OCVDigestTable.swift */; };
+		74C5F90B1DD54CAB009A1E10 /* CommendAnOfficer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8901DD54CAB009A1E10 /* CommendAnOfficer.swift */; };
+		74C5F90C1DD54CAB009A1E10 /* DamageReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8911DD54CAB009A1E10 /* DamageReport.swift */; };
+		74C5F90D1DD54CAB009A1E10 /* CustomCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8931DD54CAB009A1E10 /* CustomCells.swift */; };
+		74C5F90E1DD54CAB009A1E10 /* WeekDaysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F8941DD54CAB009A1E10 /* WeekDaysCell.xib */; };
+		74C5F90F1DD54CAB009A1E10 /* PrayerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8951DD54CAB009A1E10 /* PrayerRequest.swift */; };
+		74C5F9101DD54CAB009A1E10 /* SubmitATip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8961DD54CAB009A1E10 /* SubmitATip.swift */; };
+		74C5F9111DD54CAB009A1E10 /* OCVContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8981DD54CAB009A1E10 /* OCVContact.swift */; };
+		74C5F9121DD54CAB009A1E10 /* OCVContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8991DD54CAB009A1E10 /* OCVContactModel.swift */; };
+		74C5F9131DD54CAB009A1E10 /* OCVContactObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F89A1DD54CAB009A1E10 /* OCVContactObject.swift */; };
+		74C5F9141DD54CAB009A1E10 /* OCVDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F89B1DD54CAB009A1E10 /* OCVDetail.swift */; };
+		74C5F9151DD54CAB009A1E10 /* OCVSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F89C1DD54CAB009A1E10 /* OCVSlideshow.swift */; };
+		74C5F9161DD54CAB009A1E10 /* OCVStandardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F89D1DD54CAB009A1E10 /* OCVStandardDetail.swift */; };
+		74C5F9171DD54CAB009A1E10 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A01DD54CAB009A1E10 /* ConfigurableCell.swift */; };
+		74C5F9181DD54CAB009A1E10 /* DataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A11DD54CAB009A1E10 /* DataCoordinator.swift */; };
+		74C5F9191DD54CAB009A1E10 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A21DD54CAB009A1E10 /* DataProvider.swift */; };
+		74C5F91A1DD54CAB009A1E10 /* GenericTableViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A31DD54CAB009A1E10 /* GenericTableViewDataCoordinator.swift */; };
+		74C5F91B1DD54CAB009A1E10 /* OCVBaseTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A41DD54CAB009A1E10 /* OCVBaseTable.swift */; };
+		74C5F91C1DD54CAB009A1E10 /* OCVDefaultTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A51DD54CAB009A1E10 /* OCVDefaultTableCell.swift */; };
+		74C5F91D1DD54CAB009A1E10 /* OCVMessageHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A61DD54CAB009A1E10 /* OCVMessageHistory.swift */; };
+		74C5F91E1DD54CAB009A1E10 /* OCVMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A71DD54CAB009A1E10 /* OCVMessageModel.swift */; };
+		74C5F91F1DD54CAB009A1E10 /* OCVMessageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A81DD54CAB009A1E10 /* OCVMessageObject.swift */; };
+		74C5F9201DD54CAB009A1E10 /* OCVResizingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8A91DD54CAB009A1E10 /* OCVResizingCell.swift */; };
+		74C5F9211DD54CAB009A1E10 /* OCVResizingTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8AA1DD54CAB009A1E10 /* OCVResizingTable.swift */; };
+		74C5F9221DD54CAB009A1E10 /* OCVSocialPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8AB1DD54CAB009A1E10 /* OCVSocialPopup.swift */; };
+		74C5F9231DD54CAB009A1E10 /* OCVSubmenuPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8AC1DD54CAB009A1E10 /* OCVSubmenuPopup.swift */; };
+		74C5F9241DD54CAB009A1E10 /* OCVTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8AD1DD54CAB009A1E10 /* OCVTable.swift */; };
+		74C5F9251DD54CAB009A1E10 /* OCVTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8AE1DD54CAB009A1E10 /* OCVTableModel.swift */; };
+		74C5F9261DD54CAB009A1E10 /* OCVTableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8AF1DD54CAB009A1E10 /* OCVTableObject.swift */; };
+		74C5F9271DD54CAB009A1E10 /* OCVTwitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8B11DD54CAB009A1E10 /* OCVTwitter.swift */; };
+		74C5F9281DD54CAB009A1E10 /* OCVTwitterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8B21DD54CAB009A1E10 /* OCVTwitterModel.swift */; };
+		74C5F9291DD54CAB009A1E10 /* OCVTwitterObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8B31DD54CAB009A1E10 /* OCVTwitterObject.swift */; };
+		74C5F92A1DD54CAB009A1E10 /* OCVTickerTape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8B41DD54CAB009A1E10 /* OCVTickerTape.swift */; };
+		74C5F92B1DD54CAB009A1E10 /* OCVWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8B51DD54CAB009A1E10 /* OCVWebview.swift */; };
+		74C5F92C1DD54CAB009A1E10 /* ALOffender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8B71DD54CAB009A1E10 /* ALOffender.swift */; };
+		74C5F92D1DD54CAB009A1E10 /* ClusteringImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F8BA1DD54CAB009A1E10 /* ClusteringImages.xcassets */; };
+		74C5F92E1DD54CAB009A1E10 /* FBAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8BC1DD54CAB009A1E10 /* FBAnnotation.swift */; };
+		74C5F92F1DD54CAB009A1E10 /* FBAnnotationCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8BD1DD54CAB009A1E10 /* FBAnnotationCluster.swift */; };
+		74C5F9301DD54CAB009A1E10 /* FBAnnotationClusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8BE1DD54CAB009A1E10 /* FBAnnotationClusterView.swift */; };
+		74C5F9311DD54CAB009A1E10 /* FBBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8BF1DD54CAB009A1E10 /* FBBoundingBox.swift */; };
+		74C5F9321DD54CAB009A1E10 /* FBClusteringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C01DD54CAB009A1E10 /* FBClusteringManager.swift */; };
+		74C5F9331DD54CAB009A1E10 /* FBQuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C11DD54CAB009A1E10 /* FBQuadTree.swift */; };
+		74C5F9341DD54CAB009A1E10 /* FBQuadTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C21DD54CAB009A1E10 /* FBQuadTreeNode.swift */; };
+		74C5F9351DD54CAB009A1E10 /* FLOffender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C31DD54CAB009A1E10 /* FLOffender.swift */; };
+		74C5F9361DD54CAB009A1E10 /* OCVOffenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C41DD54CAB009A1E10 /* OCVOffenderCell.swift */; };
+		74C5F9371DD54CAB009A1E10 /* OCVOffenderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C51DD54CAB009A1E10 /* OCVOffenderController.swift */; };
+		74C5F9381DD54CAB009A1E10 /* OCVOffenderDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C61DD54CAB009A1E10 /* OCVOffenderDataProvider.swift */; };
+		74C5F9391DD54CAB009A1E10 /* OCVOffenderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C71DD54CAB009A1E10 /* OCVOffenderDetail.swift */; };
+		74C5F93A1DD54CAB009A1E10 /* OCVOffenderMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C81DD54CAB009A1E10 /* OCVOffenderMapView.swift */; };
+		74C5F93B1DD54CAB009A1E10 /* OCVOffenderObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8C91DD54CAB009A1E10 /* OCVOffenderObjectViewModel.swift */; };
+		74C5F93C1DD54CAB009A1E10 /* OCVOffenderParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8CA1DD54CAB009A1E10 /* OCVOffenderParser.swift */; };
+		74C5F93D1DD54CAB009A1E10 /* OCVOffenderTableViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8CB1DD54CAB009A1E10 /* OCVOffenderTableViewDataCoordinator.swift */; };
+		74C5F93E1DD54CAB009A1E10 /* OCVPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8CD1DD54CAB009A1E10 /* OCVPage.swift */; };
+		74C5F93F1DD54CAB009A1E10 /* OCVPageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8CE1DD54CAB009A1E10 /* OCVPageObject.swift */; };
+		74C5F9401DD54CAB009A1E10 /* OCVPageObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8CF1DD54CAB009A1E10 /* OCVPageObjectViewModel.swift */; };
+		74C5F9411DD54CAB009A1E10 /* OCVCurrentWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D11DD54CAB009A1E10 /* OCVCurrentWeatherCell.swift */; };
+		74C5F9421DD54CAB009A1E10 /* OCVDailyForecastAlertsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D21DD54CAB009A1E10 /* OCVDailyForecastAlertsController.swift */; };
+		74C5F9431DD54CAB009A1E10 /* OCVHourlyWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D31DD54CAB009A1E10 /* OCVHourlyWeatherCell.swift */; };
+		74C5F9441DD54CAB009A1E10 /* OCVRadarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D41DD54CAB009A1E10 /* OCVRadarCell.swift */; };
+		74C5F9451DD54CAB009A1E10 /* OCVWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D51DD54CAB009A1E10 /* OCVWeather.swift */; };
+		74C5F9461DD54CAB009A1E10 /* OCVWeatherAlertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D61DD54CAB009A1E10 /* OCVWeatherAlertCell.swift */; };
+		74C5F9471DD54CAB009A1E10 /* OCVWeatherDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D71DD54CAB009A1E10 /* OCVWeatherDataCoordinator.swift */; };
+		74C5F9481DD54CAB009A1E10 /* OCVWeatherDetailPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D81DD54CAB009A1E10 /* OCVWeatherDetailPopup.swift */; };
+		74C5F9491DD54CAB009A1E10 /* OCVWeatherForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8D91DD54CAB009A1E10 /* OCVWeatherForecastCell.swift */; };
+		74C5F94A1DD54CAB009A1E10 /* OCVWeatherHourlyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8DA1DD54CAB009A1E10 /* OCVWeatherHourlyCollection.swift */; };
+		74C5F94B1DD54CAB009A1E10 /* OCVWeatherObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8DB1DD54CAB009A1E10 /* OCVWeatherObjects.swift */; };
+		74C5F94C1DD54CAB009A1E10 /* OCVWeatherStylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8DC1DD54CAB009A1E10 /* OCVWeatherStylesheet.swift */; };
+		74C5F94D1DD54CAB009A1E10 /* OCVWeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8DD1DD54CAB009A1E10 /* OCVWeatherWidget.swift */; };
+		74C5F94E1DD54CAB009A1E10 /* weatherBackgrounds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F8DE1DD54CAB009A1E10 /* weatherBackgrounds.xcassets */; };
+		74C5F94F1DD54CAB009A1E10 /* weatherIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F8DF1DD54CAB009A1E10 /* weatherIcons.xcassets */; };
+		74C5F9501DD54CAB009A1E10 /* OCVWhereAmI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E11DD54CAB009A1E10 /* OCVWhereAmI.swift */; };
+		74C5F9511DD54CAB009A1E10 /* OCVWhereAmIInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E21DD54CAB009A1E10 /* OCVWhereAmIInfoCell.swift */; };
+		74C5F9521DD54CAB009A1E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E41DD54CAB009A1E10 /* AppDelegate.swift */; };
+		74C5F9531DD54CAB009A1E10 /* AWSAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E51DD54CAB009A1E10 /* AWSAnalytics.swift */; };
+		74C5F9541DD54CAB009A1E10 /* OCVAPNSDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E61DD54CAB009A1E10 /* OCVAPNSDataCoordinator.swift */; };
+		74C5F9551DD54CAB009A1E10 /* OCVAppUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E71DD54CAB009A1E10 /* OCVAppUtilities.swift */; };
+		74C5F9561DD54CAB009A1E10 /* OCVDrawerVisualStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E81DD54CAB009A1E10 /* OCVDrawerVisualStateManager.swift */; };
+		74C5F9571DD54CAB009A1E10 /* OCVExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8E91DD54CAB009A1E10 /* OCVExtensions.swift */; };
+		74C5F9581DD54CAB009A1E10 /* OCVFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8EA1DD54CAB009A1E10 /* OCVFeedParser.swift */; };
+		74C5F9591DD54CAB009A1E10 /* OCVMenuBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8EB1DD54CAB009A1E10 /* OCVMenuBuilder.swift */; };
+		74C5F95A1DD54CAB009A1E10 /* OCVMenuTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8EC1DD54CAB009A1E10 /* OCVMenuTableController.swift */; };
+		74C5F95B1DD54CAB009A1E10 /* OCVNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8ED1DD54CAB009A1E10 /* OCVNetworkClient.swift */; };
+		74C5F95C1DD54CAB009A1E10 /* OCVDeveloperFeedbackForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8EF1DD54CAB009A1E10 /* OCVDeveloperFeedbackForm.swift */; };
+		74C5F95D1DD54CAB009A1E10 /* OCVNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F01DD54CAB009A1E10 /* OCVNetworkManager.swift */; };
+		74C5F95E1DD54CAB009A1E10 /* OCVNotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F11DD54CAB009A1E10 /* OCVNotificationModel.swift */; };
+		74C5F95F1DD54CAB009A1E10 /* OCVNotificationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F21DD54CAB009A1E10 /* OCVNotificationParser.swift */; };
+		74C5F9601DD54CAB009A1E10 /* OCVNotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F31DD54CAB009A1E10 /* OCVNotificationSettings.swift */; };
+		74C5F9611DD54CAB009A1E10 /* OCVSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F41DD54CAB009A1E10 /* OCVSettings.swift */; };
+		74C5F9621DD54CAB009A1E10 /* OCVSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F51DD54CAB009A1E10 /* OCVSettingsModel.swift */; };
+		74C5F9631DD54CAB009A1E10 /* StringExtensionHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F61DD54CAB009A1E10 /* StringExtensionHTML.swift */; };
+		74C5F9641DD54CAB009A1E10 /* EZLoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F81DD54CAB009A1E10 /* EZLoadingActivity.swift */; };
+		74C5F9651DD54CAB009A1E10 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8F91DD54CAB009A1E10 /* FloatLabelTextField.swift */; };
+		74C5F9661DD54CAB009A1E10 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8FA1DD54CAB009A1E10 /* ImagePickerController.swift */; };
+		74C5F9671DD54CAB009A1E10 /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8FB1DD54CAB009A1E10 /* ImageRow.swift */; };
+		74C5F9681DD54CAB009A1E10 /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F8FC1DD54CAB009A1E10 /* MarqueeLabel.swift */; };
+		74C5F96E1DD54CC2009A1E10 /* CustomParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F96A1DD54CC2009A1E10 /* CustomParser.swift */; };
+		74C5F96F1DD54CC2009A1E10 /* OCVDrawerControllerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F96B1DD54CC2009A1E10 /* OCVDrawerControllerTable.swift */; };
+		74C5F9701DD54CC2009A1E10 /* OCVMainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F96C1DD54CC2009A1E10 /* OCVMainMenu.swift */; };
+		74C5F9711DD54CC2009A1E10 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C5F96D1DD54CC2009A1E10 /* Stylesheet.swift */; };
+		74C5F9831DD54CD7009A1E10 /* ABOUT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9731DD54CD7009A1E10 /* ABOUT.txt */; };
+		74C5F9841DD54CD7009A1E10 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9751DD54CD7009A1E10 /* OpenSans-Bold.ttf */; };
+		74C5F9851DD54CD7009A1E10 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9761DD54CD7009A1E10 /* OpenSans-BoldItalic.ttf */; };
+		74C5F9861DD54CD7009A1E10 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9771DD54CD7009A1E10 /* OpenSans-ExtraBold.ttf */; };
+		74C5F9871DD54CD7009A1E10 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9781DD54CD7009A1E10 /* OpenSans-ExtraBoldItalic.ttf */; };
+		74C5F9881DD54CD7009A1E10 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9791DD54CD7009A1E10 /* OpenSans-Italic.ttf */; };
+		74C5F9891DD54CD7009A1E10 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F97A1DD54CD7009A1E10 /* OpenSans-Light.ttf */; };
+		74C5F98A1DD54CD7009A1E10 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F97B1DD54CD7009A1E10 /* OpenSans-LightItalic.ttf */; };
+		74C5F98B1DD54CD7009A1E10 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F97C1DD54CD7009A1E10 /* OpenSans-Regular.ttf */; };
+		74C5F98C1DD54CD7009A1E10 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F97D1DD54CD7009A1E10 /* OpenSans-Semibold.ttf */; };
+		74C5F98D1DD54CD7009A1E10 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F97E1DD54CD7009A1E10 /* OpenSans-SemiboldItalic.ttf */; };
+		74C5F98E1DD54CD7009A1E10 /* InvalidURLError.html in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F97F1DD54CD7009A1E10 /* InvalidURLError.html */; };
+		74C5F98F1DD54CD7009A1E10 /* LICENSES.txt in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9801DD54CD7009A1E10 /* LICENSES.txt */; };
+		74C5F9901DD54CD7009A1E10 /* ratings_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9811DD54CD7009A1E10 /* ratings_config.json */; };
+		74C5F9911DD54CD7009A1E10 /* swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 74C5F9821DD54CD7009A1E10 /* swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A3BC1B3B8E373408AED28CD /* Pods-a160 West Chester UMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a160 West Chester UMC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-a160 West Chester UMC/Pods-a160 West Chester UMC.debug.xcconfig"; sourceTree = "<group>"; };
 		74BC304A1DD12CE400EEF283 /* a160 West Chester UMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "a160 West Chester UMC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74BC304D1DD12CE400EEF283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74BC304F1DD12CE400EEF283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74BC30521DD12CE400EEF283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74BC30541DD12CE400EEF283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BC30571DD12CE400EEF283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BC30591DD12CE400EEF283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C5F87D1DD54CAB009A1E10 /* dependency_images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = dependency_images.xcassets; sourceTree = "<group>"; };
+		74C5F87E1DD54CAB009A1E10 /* socialMediaGraphics.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = socialMediaGraphics.xcassets; sourceTree = "<group>"; };
+		74C5F87F1DD54CAB009A1E10 /* standardMenuIconSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = standardMenuIconSet.xcassets; sourceTree = "<group>"; };
+		74C5F8801DD54CAB009A1E10 /* standardTableIconSet.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = standardTableIconSet.xcassets; sourceTree = "<group>"; };
+		74C5F8831DD54CAB009A1E10 /* OCVCalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVCalendarCell.swift; sourceTree = "<group>"; };
+		74C5F8841DD54CAB009A1E10 /* OCVCalendarEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVCalendarEvent.swift; sourceTree = "<group>"; };
+		74C5F8851DD54CAB009A1E10 /* OCVCalendarTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVCalendarTable.swift; sourceTree = "<group>"; };
+		74C5F8861DD54CAB009A1E10 /* OCVCalendarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVCalendarViewModel.swift; sourceTree = "<group>"; };
+		74C5F8881DD54CAB009A1E10 /* OCVDigestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDigestCell.swift; sourceTree = "<group>"; };
+		74C5F8891DD54CAB009A1E10 /* OCVDigestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDigestController.swift; sourceTree = "<group>"; };
+		74C5F88A1DD54CAB009A1E10 /* OCVDigestObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDigestObject.swift; sourceTree = "<group>"; };
+		74C5F88B1DD54CAB009A1E10 /* OCVDigestTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDigestTable.swift; sourceTree = "<group>"; };
+		74C5F8901DD54CAB009A1E10 /* CommendAnOfficer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommendAnOfficer.swift; sourceTree = "<group>"; };
+		74C5F8911DD54CAB009A1E10 /* DamageReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DamageReport.swift; sourceTree = "<group>"; };
+		74C5F8931DD54CAB009A1E10 /* CustomCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCells.swift; sourceTree = "<group>"; };
+		74C5F8941DD54CAB009A1E10 /* WeekDaysCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekDaysCell.xib; sourceTree = "<group>"; };
+		74C5F8951DD54CAB009A1E10 /* PrayerRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerRequest.swift; sourceTree = "<group>"; };
+		74C5F8961DD54CAB009A1E10 /* SubmitATip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitATip.swift; sourceTree = "<group>"; };
+		74C5F8981DD54CAB009A1E10 /* OCVContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVContact.swift; sourceTree = "<group>"; };
+		74C5F8991DD54CAB009A1E10 /* OCVContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVContactModel.swift; sourceTree = "<group>"; };
+		74C5F89A1DD54CAB009A1E10 /* OCVContactObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVContactObject.swift; sourceTree = "<group>"; };
+		74C5F89B1DD54CAB009A1E10 /* OCVDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDetail.swift; sourceTree = "<group>"; };
+		74C5F89C1DD54CAB009A1E10 /* OCVSlideshow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVSlideshow.swift; sourceTree = "<group>"; };
+		74C5F89D1DD54CAB009A1E10 /* OCVStandardDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVStandardDetail.swift; sourceTree = "<group>"; };
+		74C5F8A01DD54CAB009A1E10 /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		74C5F8A11DD54CAB009A1E10 /* DataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCoordinator.swift; sourceTree = "<group>"; };
+		74C5F8A21DD54CAB009A1E10 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		74C5F8A31DD54CAB009A1E10 /* GenericTableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewDataCoordinator.swift; sourceTree = "<group>"; };
+		74C5F8A41DD54CAB009A1E10 /* OCVBaseTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVBaseTable.swift; sourceTree = "<group>"; };
+		74C5F8A51DD54CAB009A1E10 /* OCVDefaultTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDefaultTableCell.swift; sourceTree = "<group>"; };
+		74C5F8A61DD54CAB009A1E10 /* OCVMessageHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVMessageHistory.swift; sourceTree = "<group>"; };
+		74C5F8A71DD54CAB009A1E10 /* OCVMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVMessageModel.swift; sourceTree = "<group>"; };
+		74C5F8A81DD54CAB009A1E10 /* OCVMessageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVMessageObject.swift; sourceTree = "<group>"; };
+		74C5F8A91DD54CAB009A1E10 /* OCVResizingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVResizingCell.swift; sourceTree = "<group>"; };
+		74C5F8AA1DD54CAB009A1E10 /* OCVResizingTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVResizingTable.swift; sourceTree = "<group>"; };
+		74C5F8AB1DD54CAB009A1E10 /* OCVSocialPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVSocialPopup.swift; sourceTree = "<group>"; };
+		74C5F8AC1DD54CAB009A1E10 /* OCVSubmenuPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVSubmenuPopup.swift; sourceTree = "<group>"; };
+		74C5F8AD1DD54CAB009A1E10 /* OCVTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVTable.swift; sourceTree = "<group>"; };
+		74C5F8AE1DD54CAB009A1E10 /* OCVTableModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVTableModel.swift; sourceTree = "<group>"; };
+		74C5F8AF1DD54CAB009A1E10 /* OCVTableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVTableObject.swift; sourceTree = "<group>"; };
+		74C5F8B11DD54CAB009A1E10 /* OCVTwitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVTwitter.swift; sourceTree = "<group>"; };
+		74C5F8B21DD54CAB009A1E10 /* OCVTwitterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVTwitterModel.swift; sourceTree = "<group>"; };
+		74C5F8B31DD54CAB009A1E10 /* OCVTwitterObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVTwitterObject.swift; sourceTree = "<group>"; };
+		74C5F8B41DD54CAB009A1E10 /* OCVTickerTape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVTickerTape.swift; sourceTree = "<group>"; };
+		74C5F8B51DD54CAB009A1E10 /* OCVWebview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWebview.swift; sourceTree = "<group>"; };
+		74C5F8B71DD54CAB009A1E10 /* ALOffender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALOffender.swift; sourceTree = "<group>"; };
+		74C5F8BA1DD54CAB009A1E10 /* ClusteringImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ClusteringImages.xcassets; sourceTree = "<group>"; };
+		74C5F8BC1DD54CAB009A1E10 /* FBAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotation.swift; sourceTree = "<group>"; };
+		74C5F8BD1DD54CAB009A1E10 /* FBAnnotationCluster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotationCluster.swift; sourceTree = "<group>"; };
+		74C5F8BE1DD54CAB009A1E10 /* FBAnnotationClusterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBAnnotationClusterView.swift; sourceTree = "<group>"; };
+		74C5F8BF1DD54CAB009A1E10 /* FBBoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBBoundingBox.swift; sourceTree = "<group>"; };
+		74C5F8C01DD54CAB009A1E10 /* FBClusteringManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBClusteringManager.swift; sourceTree = "<group>"; };
+		74C5F8C11DD54CAB009A1E10 /* FBQuadTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBQuadTree.swift; sourceTree = "<group>"; };
+		74C5F8C21DD54CAB009A1E10 /* FBQuadTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBQuadTreeNode.swift; sourceTree = "<group>"; };
+		74C5F8C31DD54CAB009A1E10 /* FLOffender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLOffender.swift; sourceTree = "<group>"; };
+		74C5F8C41DD54CAB009A1E10 /* OCVOffenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderCell.swift; sourceTree = "<group>"; };
+		74C5F8C51DD54CAB009A1E10 /* OCVOffenderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderController.swift; sourceTree = "<group>"; };
+		74C5F8C61DD54CAB009A1E10 /* OCVOffenderDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderDataProvider.swift; sourceTree = "<group>"; };
+		74C5F8C71DD54CAB009A1E10 /* OCVOffenderDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderDetail.swift; sourceTree = "<group>"; };
+		74C5F8C81DD54CAB009A1E10 /* OCVOffenderMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderMapView.swift; sourceTree = "<group>"; };
+		74C5F8C91DD54CAB009A1E10 /* OCVOffenderObjectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderObjectViewModel.swift; sourceTree = "<group>"; };
+		74C5F8CA1DD54CAB009A1E10 /* OCVOffenderParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderParser.swift; sourceTree = "<group>"; };
+		74C5F8CB1DD54CAB009A1E10 /* OCVOffenderTableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVOffenderTableViewDataCoordinator.swift; sourceTree = "<group>"; };
+		74C5F8CD1DD54CAB009A1E10 /* OCVPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVPage.swift; sourceTree = "<group>"; };
+		74C5F8CE1DD54CAB009A1E10 /* OCVPageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVPageObject.swift; sourceTree = "<group>"; };
+		74C5F8CF1DD54CAB009A1E10 /* OCVPageObjectViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVPageObjectViewModel.swift; sourceTree = "<group>"; };
+		74C5F8D11DD54CAB009A1E10 /* OCVCurrentWeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVCurrentWeatherCell.swift; sourceTree = "<group>"; };
+		74C5F8D21DD54CAB009A1E10 /* OCVDailyForecastAlertsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDailyForecastAlertsController.swift; sourceTree = "<group>"; };
+		74C5F8D31DD54CAB009A1E10 /* OCVHourlyWeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVHourlyWeatherCell.swift; sourceTree = "<group>"; };
+		74C5F8D41DD54CAB009A1E10 /* OCVRadarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVRadarCell.swift; sourceTree = "<group>"; };
+		74C5F8D51DD54CAB009A1E10 /* OCVWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeather.swift; sourceTree = "<group>"; };
+		74C5F8D61DD54CAB009A1E10 /* OCVWeatherAlertCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherAlertCell.swift; sourceTree = "<group>"; };
+		74C5F8D71DD54CAB009A1E10 /* OCVWeatherDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherDataCoordinator.swift; sourceTree = "<group>"; };
+		74C5F8D81DD54CAB009A1E10 /* OCVWeatherDetailPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherDetailPopup.swift; sourceTree = "<group>"; };
+		74C5F8D91DD54CAB009A1E10 /* OCVWeatherForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherForecastCell.swift; sourceTree = "<group>"; };
+		74C5F8DA1DD54CAB009A1E10 /* OCVWeatherHourlyCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherHourlyCollection.swift; sourceTree = "<group>"; };
+		74C5F8DB1DD54CAB009A1E10 /* OCVWeatherObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherObjects.swift; sourceTree = "<group>"; };
+		74C5F8DC1DD54CAB009A1E10 /* OCVWeatherStylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherStylesheet.swift; sourceTree = "<group>"; };
+		74C5F8DD1DD54CAB009A1E10 /* OCVWeatherWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWeatherWidget.swift; sourceTree = "<group>"; };
+		74C5F8DE1DD54CAB009A1E10 /* weatherBackgrounds.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = weatherBackgrounds.xcassets; sourceTree = "<group>"; };
+		74C5F8DF1DD54CAB009A1E10 /* weatherIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = weatherIcons.xcassets; sourceTree = "<group>"; };
+		74C5F8E11DD54CAB009A1E10 /* OCVWhereAmI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWhereAmI.swift; sourceTree = "<group>"; };
+		74C5F8E21DD54CAB009A1E10 /* OCVWhereAmIInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVWhereAmIInfoCell.swift; sourceTree = "<group>"; };
+		74C5F8E41DD54CAB009A1E10 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74C5F8E51DD54CAB009A1E10 /* AWSAnalytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSAnalytics.swift; sourceTree = "<group>"; };
+		74C5F8E61DD54CAB009A1E10 /* OCVAPNSDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVAPNSDataCoordinator.swift; sourceTree = "<group>"; };
+		74C5F8E71DD54CAB009A1E10 /* OCVAppUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVAppUtilities.swift; sourceTree = "<group>"; };
+		74C5F8E81DD54CAB009A1E10 /* OCVDrawerVisualStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDrawerVisualStateManager.swift; sourceTree = "<group>"; };
+		74C5F8E91DD54CAB009A1E10 /* OCVExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVExtensions.swift; sourceTree = "<group>"; };
+		74C5F8EA1DD54CAB009A1E10 /* OCVFeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVFeedParser.swift; sourceTree = "<group>"; };
+		74C5F8EB1DD54CAB009A1E10 /* OCVMenuBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVMenuBuilder.swift; sourceTree = "<group>"; };
+		74C5F8EC1DD54CAB009A1E10 /* OCVMenuTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVMenuTableController.swift; sourceTree = "<group>"; };
+		74C5F8ED1DD54CAB009A1E10 /* OCVNetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVNetworkClient.swift; sourceTree = "<group>"; };
+		74C5F8EF1DD54CAB009A1E10 /* OCVDeveloperFeedbackForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDeveloperFeedbackForm.swift; sourceTree = "<group>"; };
+		74C5F8F01DD54CAB009A1E10 /* OCVNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVNetworkManager.swift; sourceTree = "<group>"; };
+		74C5F8F11DD54CAB009A1E10 /* OCVNotificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVNotificationModel.swift; sourceTree = "<group>"; };
+		74C5F8F21DD54CAB009A1E10 /* OCVNotificationParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVNotificationParser.swift; sourceTree = "<group>"; };
+		74C5F8F31DD54CAB009A1E10 /* OCVNotificationSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVNotificationSettings.swift; sourceTree = "<group>"; };
+		74C5F8F41DD54CAB009A1E10 /* OCVSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVSettings.swift; sourceTree = "<group>"; };
+		74C5F8F51DD54CAB009A1E10 /* OCVSettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVSettingsModel.swift; sourceTree = "<group>"; };
+		74C5F8F61DD54CAB009A1E10 /* StringExtensionHTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensionHTML.swift; sourceTree = "<group>"; };
+		74C5F8F81DD54CAB009A1E10 /* EZLoadingActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZLoadingActivity.swift; sourceTree = "<group>"; };
+		74C5F8F91DD54CAB009A1E10 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		74C5F8FA1DD54CAB009A1E10 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		74C5F8FB1DD54CAB009A1E10 /* ImageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		74C5F8FC1DD54CAB009A1E10 /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		74C5F96A1DD54CC2009A1E10 /* CustomParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomParser.swift; sourceTree = "<group>"; };
+		74C5F96B1DD54CC2009A1E10 /* OCVDrawerControllerTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVDrawerControllerTable.swift; sourceTree = "<group>"; };
+		74C5F96C1DD54CC2009A1E10 /* OCVMainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCVMainMenu.swift; sourceTree = "<group>"; };
+		74C5F96D1DD54CC2009A1E10 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
+		74C5F9731DD54CD7009A1E10 /* ABOUT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABOUT.txt; sourceTree = "<group>"; };
+		74C5F9751DD54CD7009A1E10 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		74C5F9761DD54CD7009A1E10 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		74C5F9771DD54CD7009A1E10 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		74C5F9781DD54CD7009A1E10 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		74C5F9791DD54CD7009A1E10 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		74C5F97A1DD54CD7009A1E10 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		74C5F97B1DD54CD7009A1E10 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		74C5F97C1DD54CD7009A1E10 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		74C5F97D1DD54CD7009A1E10 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		74C5F97E1DD54CD7009A1E10 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		74C5F97F1DD54CD7009A1E10 /* InvalidURLError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = InvalidURLError.html; sourceTree = "<group>"; };
+		74C5F9801DD54CD7009A1E10 /* LICENSES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSES.txt; sourceTree = "<group>"; };
+		74C5F9811DD54CD7009A1E10 /* ratings_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ratings_config.json; sourceTree = "<group>"; };
+		74C5F9821DD54CD7009A1E10 /* swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swiftlint.yml; sourceTree = "<group>"; };
+		B9949E5969A868B24E262A7E /* Pods_a160_West_Chester_UMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a160_West_Chester_UMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC69A29F462E3156C470FE7 /* Pods-a160 West Chester UMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a160 West Chester UMC.release.xcconfig"; path = "Pods/Target Support Files/Pods-a160 West Chester UMC/Pods-a160 West Chester UMC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573B97D9D2391655C27C60E1 /* Pods_a160_West_Chester_UMC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +291,8 @@
 			children = (
 				74BC304C1DD12CE400EEF283 /* a160 West Chester UMC */,
 				74BC304B1DD12CE400EEF283 /* Products */,
+				88933FB98F611181553734C4 /* Pods */,
+				CCC01840DF2A9D6658CC3851 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +307,346 @@
 		74BC304C1DD12CE400EEF283 /* a160 West Chester UMC */ = {
 			isa = PBXGroup;
 			children = (
-				74BC304D1DD12CE400EEF283 /* AppDelegate.swift */,
-				74BC304F1DD12CE400EEF283 /* ViewController.swift */,
+				74C5F87B1DD54CAB009A1E10 /* OCVDependencies */,
+				74C5F9691DD54CC2009A1E10 /* ProjectSpecific */,
+				74C5F9721DD54CD7009A1E10 /* SupportingFiles */,
 				74BC30511DD12CE400EEF283 /* Main.storyboard */,
 				74BC30541DD12CE400EEF283 /* Assets.xcassets */,
 				74BC30561DD12CE400EEF283 /* LaunchScreen.storyboard */,
 				74BC30591DD12CE400EEF283 /* Info.plist */,
 			);
 			path = "a160 West Chester UMC";
+			sourceTree = "<group>";
+		};
+		74C5F87B1DD54CAB009A1E10 /* OCVDependencies */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F87C1DD54CAB009A1E10 /* AssetCatalogs */,
+				74C5F8811DD54CAB009A1E10 /* CoreFeatures */,
+				74C5F8E31DD54CAB009A1E10 /* Utilities */,
+			);
+			path = OCVDependencies;
+			sourceTree = "<group>";
+		};
+		74C5F87C1DD54CAB009A1E10 /* AssetCatalogs */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F87D1DD54CAB009A1E10 /* dependency_images.xcassets */,
+				74C5F87E1DD54CAB009A1E10 /* socialMediaGraphics.xcassets */,
+				74C5F87F1DD54CAB009A1E10 /* standardMenuIconSet.xcassets */,
+				74C5F8801DD54CAB009A1E10 /* standardTableIconSet.xcassets */,
+			);
+			path = AssetCatalogs;
+			sourceTree = "<group>";
+		};
+		74C5F8811DD54CAB009A1E10 /* CoreFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8821DD54CAB009A1E10 /* Calendar */,
+				74C5F8871DD54CAB009A1E10 /* Digest */,
+				74C5F88F1DD54CAB009A1E10 /* FormTemplates */,
+				74C5F8971DD54CAB009A1E10 /* OCVContact */,
+				74C5F89B1DD54CAB009A1E10 /* OCVDetail.swift */,
+				74C5F89C1DD54CAB009A1E10 /* OCVSlideshow.swift */,
+				74C5F89D1DD54CAB009A1E10 /* OCVStandardDetail.swift */,
+				74C5F89E1DD54CAB009A1E10 /* OCVTable */,
+				74C5F8B41DD54CAB009A1E10 /* OCVTickerTape.swift */,
+				74C5F8B51DD54CAB009A1E10 /* OCVWebview.swift */,
+				74C5F8B61DD54CAB009A1E10 /* OffenderRegistry */,
+				74C5F8CC1DD54CAB009A1E10 /* Page */,
+				74C5F8D01DD54CAB009A1E10 /* Weather */,
+				74C5F8E01DD54CAB009A1E10 /* WhereAmI */,
+			);
+			path = CoreFeatures;
+			sourceTree = "<group>";
+		};
+		74C5F8821DD54CAB009A1E10 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8831DD54CAB009A1E10 /* OCVCalendarCell.swift */,
+				74C5F8841DD54CAB009A1E10 /* OCVCalendarEvent.swift */,
+				74C5F8851DD54CAB009A1E10 /* OCVCalendarTable.swift */,
+				74C5F8861DD54CAB009A1E10 /* OCVCalendarViewModel.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		74C5F8871DD54CAB009A1E10 /* Digest */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8881DD54CAB009A1E10 /* OCVDigestCell.swift */,
+				74C5F8891DD54CAB009A1E10 /* OCVDigestController.swift */,
+				74C5F88A1DD54CAB009A1E10 /* OCVDigestObject.swift */,
+				74C5F88B1DD54CAB009A1E10 /* OCVDigestTable.swift */,
+			);
+			path = Digest;
+			sourceTree = "<group>";
+		};
+		74C5F88F1DD54CAB009A1E10 /* FormTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8901DD54CAB009A1E10 /* CommendAnOfficer.swift */,
+				74C5F8911DD54CAB009A1E10 /* DamageReport.swift */,
+				74C5F8921DD54CAB009A1E10 /* Helpers */,
+				74C5F8951DD54CAB009A1E10 /* PrayerRequest.swift */,
+				74C5F8961DD54CAB009A1E10 /* SubmitATip.swift */,
+			);
+			path = FormTemplates;
+			sourceTree = "<group>";
+		};
+		74C5F8921DD54CAB009A1E10 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8931DD54CAB009A1E10 /* CustomCells.swift */,
+				74C5F8941DD54CAB009A1E10 /* WeekDaysCell.xib */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74C5F8971DD54CAB009A1E10 /* OCVContact */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8981DD54CAB009A1E10 /* OCVContact.swift */,
+				74C5F8991DD54CAB009A1E10 /* OCVContactModel.swift */,
+				74C5F89A1DD54CAB009A1E10 /* OCVContactObject.swift */,
+			);
+			path = OCVContact;
+			sourceTree = "<group>";
+		};
+		74C5F89E1DD54CAB009A1E10 /* OCVTable */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F89F1DD54CAB009A1E10 /* GenericTableStandardClasses */,
+				74C5F8A51DD54CAB009A1E10 /* OCVDefaultTableCell.swift */,
+				74C5F8A61DD54CAB009A1E10 /* OCVMessageHistory.swift */,
+				74C5F8A71DD54CAB009A1E10 /* OCVMessageModel.swift */,
+				74C5F8A81DD54CAB009A1E10 /* OCVMessageObject.swift */,
+				74C5F8A91DD54CAB009A1E10 /* OCVResizingCell.swift */,
+				74C5F8AA1DD54CAB009A1E10 /* OCVResizingTable.swift */,
+				74C5F8AB1DD54CAB009A1E10 /* OCVSocialPopup.swift */,
+				74C5F8AC1DD54CAB009A1E10 /* OCVSubmenuPopup.swift */,
+				74C5F8AD1DD54CAB009A1E10 /* OCVTable.swift */,
+				74C5F8AE1DD54CAB009A1E10 /* OCVTableModel.swift */,
+				74C5F8AF1DD54CAB009A1E10 /* OCVTableObject.swift */,
+				74C5F8B01DD54CAB009A1E10 /* OCVTwitter */,
+			);
+			path = OCVTable;
+			sourceTree = "<group>";
+		};
+		74C5F89F1DD54CAB009A1E10 /* GenericTableStandardClasses */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8A01DD54CAB009A1E10 /* ConfigurableCell.swift */,
+				74C5F8A11DD54CAB009A1E10 /* DataCoordinator.swift */,
+				74C5F8A21DD54CAB009A1E10 /* DataProvider.swift */,
+				74C5F8A31DD54CAB009A1E10 /* GenericTableViewDataCoordinator.swift */,
+				74C5F8A41DD54CAB009A1E10 /* OCVBaseTable.swift */,
+			);
+			path = GenericTableStandardClasses;
+			sourceTree = "<group>";
+		};
+		74C5F8B01DD54CAB009A1E10 /* OCVTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8B11DD54CAB009A1E10 /* OCVTwitter.swift */,
+				74C5F8B21DD54CAB009A1E10 /* OCVTwitterModel.swift */,
+				74C5F8B31DD54CAB009A1E10 /* OCVTwitterObject.swift */,
+			);
+			path = OCVTwitter;
+			sourceTree = "<group>";
+		};
+		74C5F8B61DD54CAB009A1E10 /* OffenderRegistry */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8B71DD54CAB009A1E10 /* ALOffender.swift */,
+				74C5F8B81DD54CAB009A1E10 /* FBAnnotationClustering */,
+				74C5F8C31DD54CAB009A1E10 /* FLOffender.swift */,
+				74C5F8C41DD54CAB009A1E10 /* OCVOffenderCell.swift */,
+				74C5F8C51DD54CAB009A1E10 /* OCVOffenderController.swift */,
+				74C5F8C61DD54CAB009A1E10 /* OCVOffenderDataProvider.swift */,
+				74C5F8C71DD54CAB009A1E10 /* OCVOffenderDetail.swift */,
+				74C5F8C81DD54CAB009A1E10 /* OCVOffenderMapView.swift */,
+				74C5F8C91DD54CAB009A1E10 /* OCVOffenderObjectViewModel.swift */,
+				74C5F8CA1DD54CAB009A1E10 /* OCVOffenderParser.swift */,
+				74C5F8CB1DD54CAB009A1E10 /* OCVOffenderTableViewDataCoordinator.swift */,
+			);
+			path = OffenderRegistry;
+			sourceTree = "<group>";
+		};
+		74C5F8B81DD54CAB009A1E10 /* FBAnnotationClustering */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8B91DD54CAB009A1E10 /* Assets */,
+				74C5F8BB1DD54CAB009A1E10 /* Classes */,
+			);
+			path = FBAnnotationClustering;
+			sourceTree = "<group>";
+		};
+		74C5F8B91DD54CAB009A1E10 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8BA1DD54CAB009A1E10 /* ClusteringImages.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		74C5F8BB1DD54CAB009A1E10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8BC1DD54CAB009A1E10 /* FBAnnotation.swift */,
+				74C5F8BD1DD54CAB009A1E10 /* FBAnnotationCluster.swift */,
+				74C5F8BE1DD54CAB009A1E10 /* FBAnnotationClusterView.swift */,
+				74C5F8BF1DD54CAB009A1E10 /* FBBoundingBox.swift */,
+				74C5F8C01DD54CAB009A1E10 /* FBClusteringManager.swift */,
+				74C5F8C11DD54CAB009A1E10 /* FBQuadTree.swift */,
+				74C5F8C21DD54CAB009A1E10 /* FBQuadTreeNode.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		74C5F8CC1DD54CAB009A1E10 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8CD1DD54CAB009A1E10 /* OCVPage.swift */,
+				74C5F8CE1DD54CAB009A1E10 /* OCVPageObject.swift */,
+				74C5F8CF1DD54CAB009A1E10 /* OCVPageObjectViewModel.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		74C5F8D01DD54CAB009A1E10 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8D11DD54CAB009A1E10 /* OCVCurrentWeatherCell.swift */,
+				74C5F8D21DD54CAB009A1E10 /* OCVDailyForecastAlertsController.swift */,
+				74C5F8D31DD54CAB009A1E10 /* OCVHourlyWeatherCell.swift */,
+				74C5F8D41DD54CAB009A1E10 /* OCVRadarCell.swift */,
+				74C5F8D51DD54CAB009A1E10 /* OCVWeather.swift */,
+				74C5F8D61DD54CAB009A1E10 /* OCVWeatherAlertCell.swift */,
+				74C5F8D71DD54CAB009A1E10 /* OCVWeatherDataCoordinator.swift */,
+				74C5F8D81DD54CAB009A1E10 /* OCVWeatherDetailPopup.swift */,
+				74C5F8D91DD54CAB009A1E10 /* OCVWeatherForecastCell.swift */,
+				74C5F8DA1DD54CAB009A1E10 /* OCVWeatherHourlyCollection.swift */,
+				74C5F8DB1DD54CAB009A1E10 /* OCVWeatherObjects.swift */,
+				74C5F8DC1DD54CAB009A1E10 /* OCVWeatherStylesheet.swift */,
+				74C5F8DD1DD54CAB009A1E10 /* OCVWeatherWidget.swift */,
+				74C5F8DE1DD54CAB009A1E10 /* weatherBackgrounds.xcassets */,
+				74C5F8DF1DD54CAB009A1E10 /* weatherIcons.xcassets */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		74C5F8E01DD54CAB009A1E10 /* WhereAmI */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8E11DD54CAB009A1E10 /* OCVWhereAmI.swift */,
+				74C5F8E21DD54CAB009A1E10 /* OCVWhereAmIInfoCell.swift */,
+			);
+			path = WhereAmI;
+			sourceTree = "<group>";
+		};
+		74C5F8E31DD54CAB009A1E10 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8E41DD54CAB009A1E10 /* AppDelegate.swift */,
+				74C5F8E51DD54CAB009A1E10 /* AWSAnalytics.swift */,
+				74C5F8E61DD54CAB009A1E10 /* OCVAPNSDataCoordinator.swift */,
+				74C5F8E71DD54CAB009A1E10 /* OCVAppUtilities.swift */,
+				74C5F8E81DD54CAB009A1E10 /* OCVDrawerVisualStateManager.swift */,
+				74C5F8E91DD54CAB009A1E10 /* OCVExtensions.swift */,
+				74C5F8EA1DD54CAB009A1E10 /* OCVFeedParser.swift */,
+				74C5F8EB1DD54CAB009A1E10 /* OCVMenuBuilder.swift */,
+				74C5F8EC1DD54CAB009A1E10 /* OCVMenuTableController.swift */,
+				74C5F8ED1DD54CAB009A1E10 /* OCVNetworkClient.swift */,
+				74C5F8EE1DD54CAB009A1E10 /* Settings */,
+				74C5F8F61DD54CAB009A1E10 /* StringExtensionHTML.swift */,
+				74C5F8F71DD54CAB009A1E10 /* ThirdParty */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		74C5F8EE1DD54CAB009A1E10 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8EF1DD54CAB009A1E10 /* OCVDeveloperFeedbackForm.swift */,
+				74C5F8F01DD54CAB009A1E10 /* OCVNetworkManager.swift */,
+				74C5F8F11DD54CAB009A1E10 /* OCVNotificationModel.swift */,
+				74C5F8F21DD54CAB009A1E10 /* OCVNotificationParser.swift */,
+				74C5F8F31DD54CAB009A1E10 /* OCVNotificationSettings.swift */,
+				74C5F8F41DD54CAB009A1E10 /* OCVSettings.swift */,
+				74C5F8F51DD54CAB009A1E10 /* OCVSettingsModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		74C5F8F71DD54CAB009A1E10 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F8F81DD54CAB009A1E10 /* EZLoadingActivity.swift */,
+				74C5F8F91DD54CAB009A1E10 /* FloatLabelTextField.swift */,
+				74C5F8FA1DD54CAB009A1E10 /* ImagePickerController.swift */,
+				74C5F8FB1DD54CAB009A1E10 /* ImageRow.swift */,
+				74C5F8FC1DD54CAB009A1E10 /* MarqueeLabel.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		74C5F9691DD54CC2009A1E10 /* ProjectSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F96A1DD54CC2009A1E10 /* CustomParser.swift */,
+				74C5F96B1DD54CC2009A1E10 /* OCVDrawerControllerTable.swift */,
+				74C5F96C1DD54CC2009A1E10 /* OCVMainMenu.swift */,
+				74C5F96D1DD54CC2009A1E10 /* Stylesheet.swift */,
+			);
+			path = ProjectSpecific;
+			sourceTree = "<group>";
+		};
+		74C5F9721DD54CD7009A1E10 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F9731DD54CD7009A1E10 /* ABOUT.txt */,
+				74C5F9741DD54CD7009A1E10 /* Fonts */,
+				74C5F97F1DD54CD7009A1E10 /* InvalidURLError.html */,
+				74C5F9801DD54CD7009A1E10 /* LICENSES.txt */,
+				74C5F9811DD54CD7009A1E10 /* ratings_config.json */,
+				74C5F9821DD54CD7009A1E10 /* swiftlint.yml */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		74C5F9741DD54CD7009A1E10 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				74C5F9751DD54CD7009A1E10 /* OpenSans-Bold.ttf */,
+				74C5F9761DD54CD7009A1E10 /* OpenSans-BoldItalic.ttf */,
+				74C5F9771DD54CD7009A1E10 /* OpenSans-ExtraBold.ttf */,
+				74C5F9781DD54CD7009A1E10 /* OpenSans-ExtraBoldItalic.ttf */,
+				74C5F9791DD54CD7009A1E10 /* OpenSans-Italic.ttf */,
+				74C5F97A1DD54CD7009A1E10 /* OpenSans-Light.ttf */,
+				74C5F97B1DD54CD7009A1E10 /* OpenSans-LightItalic.ttf */,
+				74C5F97C1DD54CD7009A1E10 /* OpenSans-Regular.ttf */,
+				74C5F97D1DD54CD7009A1E10 /* OpenSans-Semibold.ttf */,
+				74C5F97E1DD54CD7009A1E10 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		88933FB98F611181553734C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A3BC1B3B8E373408AED28CD /* Pods-a160 West Chester UMC.debug.xcconfig */,
+				CEC69A29F462E3156C470FE7 /* Pods-a160 West Chester UMC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCC01840DF2A9D6658CC3851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9949E5969A868B24E262A7E /* Pods_a160_West_Chester_UMC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +656,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74BC305C1DD12CE400EEF283 /* Build configuration list for PBXNativeTarget "a160 West Chester UMC" */;
 			buildPhases = (
+				1E736FB20023B522A939C876 /* [CP] Check Pods Manifest.lock */,
 				74BC30461DD12CE400EEF283 /* Sources */,
 				74BC30471DD12CE400EEF283 /* Frameworks */,
 				74BC30481DD12CE400EEF283 /* Resources */,
+				32E2894876610447A9F6DF85 /* [CP] Embed Pods Frameworks */,
+				A921998520CAB5E1035009B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +711,192 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C5F8FD1DD54CAB009A1E10 /* dependency_images.xcassets in Resources */,
+				74C5F9901DD54CD7009A1E10 /* ratings_config.json in Resources */,
+				74C5F92D1DD54CAB009A1E10 /* ClusteringImages.xcassets in Resources */,
+				74C5F94E1DD54CAB009A1E10 /* weatherBackgrounds.xcassets in Resources */,
 				74BC30581DD12CE400EEF283 /* LaunchScreen.storyboard in Resources */,
+				74C5F94F1DD54CAB009A1E10 /* weatherIcons.xcassets in Resources */,
 				74BC30551DD12CE400EEF283 /* Assets.xcassets in Resources */,
+				74C5F9891DD54CD7009A1E10 /* OpenSans-Light.ttf in Resources */,
+				74C5F8FF1DD54CAB009A1E10 /* standardMenuIconSet.xcassets in Resources */,
+				74C5F98F1DD54CD7009A1E10 /* LICENSES.txt in Resources */,
+				74C5F9871DD54CD7009A1E10 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				74C5F8FE1DD54CAB009A1E10 /* socialMediaGraphics.xcassets in Resources */,
+				74C5F98D1DD54CD7009A1E10 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				74C5F98B1DD54CD7009A1E10 /* OpenSans-Regular.ttf in Resources */,
+				74C5F98E1DD54CD7009A1E10 /* InvalidURLError.html in Resources */,
+				74C5F9911DD54CD7009A1E10 /* swiftlint.yml in Resources */,
 				74BC30531DD12CE400EEF283 /* Main.storyboard in Resources */,
+				74C5F98C1DD54CD7009A1E10 /* OpenSans-Semibold.ttf in Resources */,
+				74C5F90E1DD54CAB009A1E10 /* WeekDaysCell.xib in Resources */,
+				74C5F9851DD54CD7009A1E10 /* OpenSans-BoldItalic.ttf in Resources */,
+				74C5F9841DD54CD7009A1E10 /* OpenSans-Bold.ttf in Resources */,
+				74C5F9881DD54CD7009A1E10 /* OpenSans-Italic.ttf in Resources */,
+				74C5F98A1DD54CD7009A1E10 /* OpenSans-LightItalic.ttf in Resources */,
+				74C5F9831DD54CD7009A1E10 /* ABOUT.txt in Resources */,
+				74C5F9001DD54CAB009A1E10 /* standardTableIconSet.xcassets in Resources */,
+				74C5F9861DD54CD7009A1E10 /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E736FB20023B522A939C876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32E2894876610447A9F6DF85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-a160 West Chester UMC/Pods-a160 West Chester UMC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A921998520CAB5E1035009B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-a160 West Chester UMC/Pods-a160 West Chester UMC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		74BC30461DD12CE400EEF283 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74BC30501DD12CE400EEF283 /* ViewController.swift in Sources */,
-				74BC304E1DD12CE400EEF283 /* AppDelegate.swift in Sources */,
+				74C5F96F1DD54CC2009A1E10 /* OCVDrawerControllerTable.swift in Sources */,
+				74C5F95C1DD54CAB009A1E10 /* OCVDeveloperFeedbackForm.swift in Sources */,
+				74C5F92B1DD54CAB009A1E10 /* OCVWebview.swift in Sources */,
+				74C5F9261DD54CAB009A1E10 /* OCVTableObject.swift in Sources */,
+				74C5F91B1DD54CAB009A1E10 /* OCVBaseTable.swift in Sources */,
+				74C5F9051DD54CAB009A1E10 /* OCVDigestCell.swift in Sources */,
+				74C5F9201DD54CAB009A1E10 /* OCVResizingCell.swift in Sources */,
+				74C5F9351DD54CAB009A1E10 /* FLOffender.swift in Sources */,
+				74C5F9311DD54CAB009A1E10 /* FBBoundingBox.swift in Sources */,
+				74C5F9581DD54CAB009A1E10 /* OCVFeedParser.swift in Sources */,
+				74C5F9701DD54CC2009A1E10 /* OCVMainMenu.swift in Sources */,
+				74C5F9451DD54CAB009A1E10 /* OCVWeather.swift in Sources */,
+				74C5F9131DD54CAB009A1E10 /* OCVContactObject.swift in Sources */,
+				74C5F9181DD54CAB009A1E10 /* DataCoordinator.swift in Sources */,
+				74C5F9101DD54CAB009A1E10 /* SubmitATip.swift in Sources */,
+				74C5F9671DD54CAB009A1E10 /* ImageRow.swift in Sources */,
+				74C5F93D1DD54CAB009A1E10 /* OCVOffenderTableViewDataCoordinator.swift in Sources */,
+				74C5F92F1DD54CAB009A1E10 /* FBAnnotationCluster.swift in Sources */,
+				74C5F96E1DD54CC2009A1E10 /* CustomParser.swift in Sources */,
+				74C5F9271DD54CAB009A1E10 /* OCVTwitter.swift in Sources */,
+				74C5F95B1DD54CAB009A1E10 /* OCVNetworkClient.swift in Sources */,
+				74C5F9541DD54CAB009A1E10 /* OCVAPNSDataCoordinator.swift in Sources */,
+				74C5F9481DD54CAB009A1E10 /* OCVWeatherDetailPopup.swift in Sources */,
+				74C5F9251DD54CAB009A1E10 /* OCVTableModel.swift in Sources */,
+				74C5F9381DD54CAB009A1E10 /* OCVOffenderDataProvider.swift in Sources */,
+				74C5F9531DD54CAB009A1E10 /* AWSAnalytics.swift in Sources */,
+				74C5F9241DD54CAB009A1E10 /* OCVTable.swift in Sources */,
+				74C5F9611DD54CAB009A1E10 /* OCVSettings.swift in Sources */,
+				74C5F93E1DD54CAB009A1E10 /* OCVPage.swift in Sources */,
+				74C5F9391DD54CAB009A1E10 /* OCVOffenderDetail.swift in Sources */,
+				74C5F9511DD54CAB009A1E10 /* OCVWhereAmIInfoCell.swift in Sources */,
+				74C5F9161DD54CAB009A1E10 /* OCVStandardDetail.swift in Sources */,
+				74C5F9011DD54CAB009A1E10 /* OCVCalendarCell.swift in Sources */,
+				74C5F9071DD54CAB009A1E10 /* OCVDigestObject.swift in Sources */,
+				74C5F9331DD54CAB009A1E10 /* FBQuadTree.swift in Sources */,
+				74C5F9401DD54CAB009A1E10 /* OCVPageObjectViewModel.swift in Sources */,
+				74C5F9661DD54CAB009A1E10 /* ImagePickerController.swift in Sources */,
+				74C5F9301DD54CAB009A1E10 /* FBAnnotationClusterView.swift in Sources */,
+				74C5F9021DD54CAB009A1E10 /* OCVCalendarEvent.swift in Sources */,
+				74C5F9361DD54CAB009A1E10 /* OCVOffenderCell.swift in Sources */,
+				74C5F9031DD54CAB009A1E10 /* OCVCalendarTable.swift in Sources */,
+				74C5F9211DD54CAB009A1E10 /* OCVResizingTable.swift in Sources */,
+				74C5F90F1DD54CAB009A1E10 /* PrayerRequest.swift in Sources */,
+				74C5F9171DD54CAB009A1E10 /* ConfigurableCell.swift in Sources */,
+				74C5F9591DD54CAB009A1E10 /* OCVMenuBuilder.swift in Sources */,
+				74C5F9321DD54CAB009A1E10 /* FBClusteringManager.swift in Sources */,
+				74C5F92E1DD54CAB009A1E10 /* FBAnnotation.swift in Sources */,
+				74C5F91D1DD54CAB009A1E10 /* OCVMessageHistory.swift in Sources */,
+				74C5F9421DD54CAB009A1E10 /* OCVDailyForecastAlertsController.swift in Sources */,
+				74C5F9601DD54CAB009A1E10 /* OCVNotificationSettings.swift in Sources */,
+				74C5F9061DD54CAB009A1E10 /* OCVDigestController.swift in Sources */,
+				74C5F9041DD54CAB009A1E10 /* OCVCalendarViewModel.swift in Sources */,
+				74C5F9431DD54CAB009A1E10 /* OCVHourlyWeatherCell.swift in Sources */,
+				74C5F9371DD54CAB009A1E10 /* OCVOffenderController.swift in Sources */,
+				74C5F94C1DD54CAB009A1E10 /* OCVWeatherStylesheet.swift in Sources */,
+				74C5F9621DD54CAB009A1E10 /* OCVSettingsModel.swift in Sources */,
+				74C5F9221DD54CAB009A1E10 /* OCVSocialPopup.swift in Sources */,
+				74C5F9341DD54CAB009A1E10 /* FBQuadTreeNode.swift in Sources */,
+				74C5F9551DD54CAB009A1E10 /* OCVAppUtilities.swift in Sources */,
+				74C5F9151DD54CAB009A1E10 /* OCVSlideshow.swift in Sources */,
+				74C5F90C1DD54CAB009A1E10 /* DamageReport.swift in Sources */,
+				74C5F9441DD54CAB009A1E10 /* OCVRadarCell.swift in Sources */,
+				74C5F9081DD54CAB009A1E10 /* OCVDigestTable.swift in Sources */,
+				74C5F95A1DD54CAB009A1E10 /* OCVMenuTableController.swift in Sources */,
+				74C5F9641DD54CAB009A1E10 /* EZLoadingActivity.swift in Sources */,
+				74C5F93B1DD54CAB009A1E10 /* OCVOffenderObjectViewModel.swift in Sources */,
+				74C5F92A1DD54CAB009A1E10 /* OCVTickerTape.swift in Sources */,
+				74C5F91A1DD54CAB009A1E10 /* GenericTableViewDataCoordinator.swift in Sources */,
+				74C5F9121DD54CAB009A1E10 /* OCVContactModel.swift in Sources */,
+				74C5F9631DD54CAB009A1E10 /* StringExtensionHTML.swift in Sources */,
+				74C5F95F1DD54CAB009A1E10 /* OCVNotificationParser.swift in Sources */,
+				74C5F9191DD54CAB009A1E10 /* DataProvider.swift in Sources */,
+				74C5F93C1DD54CAB009A1E10 /* OCVOffenderParser.swift in Sources */,
+				74C5F9141DD54CAB009A1E10 /* OCVDetail.swift in Sources */,
+				74C5F9571DD54CAB009A1E10 /* OCVExtensions.swift in Sources */,
+				74C5F94B1DD54CAB009A1E10 /* OCVWeatherObjects.swift in Sources */,
+				74C5F9471DD54CAB009A1E10 /* OCVWeatherDataCoordinator.swift in Sources */,
+				74C5F9561DD54CAB009A1E10 /* OCVDrawerVisualStateManager.swift in Sources */,
+				74C5F90B1DD54CAB009A1E10 /* CommendAnOfficer.swift in Sources */,
+				74C5F91E1DD54CAB009A1E10 /* OCVMessageModel.swift in Sources */,
+				74C5F95D1DD54CAB009A1E10 /* OCVNetworkManager.swift in Sources */,
+				74C5F9521DD54CAB009A1E10 /* AppDelegate.swift in Sources */,
+				74C5F90D1DD54CAB009A1E10 /* CustomCells.swift in Sources */,
+				74C5F95E1DD54CAB009A1E10 /* OCVNotificationModel.swift in Sources */,
+				74C5F9461DD54CAB009A1E10 /* OCVWeatherAlertCell.swift in Sources */,
+				74C5F9411DD54CAB009A1E10 /* OCVCurrentWeatherCell.swift in Sources */,
+				74C5F94D1DD54CAB009A1E10 /* OCVWeatherWidget.swift in Sources */,
+				74C5F9281DD54CAB009A1E10 /* OCVTwitterModel.swift in Sources */,
+				74C5F9291DD54CAB009A1E10 /* OCVTwitterObject.swift in Sources */,
+				74C5F91F1DD54CAB009A1E10 /* OCVMessageObject.swift in Sources */,
+				74C5F92C1DD54CAB009A1E10 /* ALOffender.swift in Sources */,
+				74C5F9711DD54CC2009A1E10 /* Stylesheet.swift in Sources */,
+				74C5F91C1DD54CAB009A1E10 /* OCVDefaultTableCell.swift in Sources */,
+				74C5F9491DD54CAB009A1E10 /* OCVWeatherForecastCell.swift in Sources */,
+				74C5F93A1DD54CAB009A1E10 /* OCVOffenderMapView.swift in Sources */,
+				74C5F9651DD54CAB009A1E10 /* FloatLabelTextField.swift in Sources */,
+				74C5F94A1DD54CAB009A1E10 /* OCVWeatherHourlyCollection.swift in Sources */,
+				74C5F9111DD54CAB009A1E10 /* OCVContact.swift in Sources */,
+				74C5F9231DD54CAB009A1E10 /* OCVSubmenuPopup.swift in Sources */,
+				74C5F9681DD54CAB009A1E10 /* MarqueeLabel.swift in Sources */,
+				74C5F9501DD54CAB009A1E10 /* OCVWhereAmI.swift in Sources */,
+				74C5F93F1DD54CAB009A1E10 /* OCVPageObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +940,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +991,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -258,7 +1019,9 @@
 		};
 		74BC305D1DD12CE400EEF283 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3BC1B3B8E373408AED28CD /* Pods-a160 West Chester UMC.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "a160 West Chester UMC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -270,7 +1033,9 @@
 		};
 		74BC305E1DD12CE400EEF283 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC69A29F462E3156C470FE7 /* Pods-a160 West Chester UMC.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "a160 West Chester UMC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -299,6 +1064,7 @@
 				74BC305E1DD12CE400EEF283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
